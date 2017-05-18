@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<component name="myoperation" version="1.0">
+
+  <extension point="operations" target="org.nuxeo.ecm.core.operation.OperationServiceComponent">
+    <operation class="org.nuxeo.kotlin.example.MyOperation"/>
+  </extension>
+
+</component>
