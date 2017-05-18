@@ -111,7 +111,7 @@ curl -H 'Content-Type:application/json+nxrequest' -X POST -d '{"params":{},"cont
 
 - Get the result!
 
-### How to debug?
+### Debug?
 
 And if you run again this command you can like in Java debug quickly your code in Kotlin and in even in through both codes in the application!
 
@@ -124,4 +124,6 @@ Checkout the new **Kotlin Nuxeo Generator** below to know how to unit test like 
 ## Getting Started
 
 ### Kotlin Nuxeo Generator
+
+Run `nuxeo bootstrap multi-module kotlin-operation` and you're good!
 
