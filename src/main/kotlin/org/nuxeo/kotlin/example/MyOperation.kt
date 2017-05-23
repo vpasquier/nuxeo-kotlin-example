@@ -10,10 +10,10 @@ import org.nuxeo.ecm.core.api.DocumentModel
 open class MyOperation {
 
     @Context
-    protected val session: CoreSession? = null
+    protected lateinit var session: CoreSession
 
     @OperationMethod
     fun run(): DocumentModel {
-        return session!!.rootDocument;
+        return session.rootDocument;
     }
 }
